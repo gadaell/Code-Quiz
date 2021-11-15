@@ -1,55 +1,44 @@
-let questions = [
+const qAs = [
   {
-    number: 1,
-    question: "Commonly used data types Do Not Include",
-    answer: "strings",
-    options: ["strings", "booleans", "alerts", "numbers"],
+    question: "Commonly used data types do not include:",
+    a1: "strings",
+    a2: "booleans",
+    a3: "alerts",
+    a4: "numbers",
+    correct: "answer3",
   },
   {
-    number: 2,
     question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common style sheet",
-      "Colorful style sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet",
-    ],
+    a1: "Common style sheet",
+    a2: "Colorful style sheet",
+    a3: "Computer Style Sheet",
+    a4: "Cascading Style Sheet",
+    correct: "answer4",
   },
   {
-    number: 3,
     question: "The browser event 'submit' allows us to do the following?",
-    answer: "Submit a form using both a button and the Enter Key",
-    options: [
-      "Submit a form using both a button and the Enter Key",
-      "Submit a form using a button",
-      "Submit a form using the Enter Key",
-      "None of the above",
-    ],
+    a1: "Submit a form using both a button and the Enter Key",
+    a2: "Submit a form using a button",
+    a3: "Submit a form using the Enter Key",
+    a4: "None of the above",
+    correct: "answer1",
   },
   {
-    number: 4,
     question:
       "In the DOM's event object, what does its target property refer to?",
-    answer:
-      "It refers to the HTML element that was interacted with to dispatch the event",
-    options: [
-      "It refers to the HTML element we want ot affext a a result of our dispatched event",
-      "It refers to the HTML element that was interacted with to dispatch the event",
-      "Both A and B",
-      "Neither A and B",
-    ],
+    a1: "It refers to the HTML element we want to affect a a result of our dispatched event",
+    a2: "It refers to the HTML element that was interacted with to dispatch the event",
+    a3: "Both A and B",
+    a4: "Neither A and B",
+    correct: "answer2",
   },
   {
-    number: 5,
     question:
       "Which of the following is NOT a reason to validate a user's responses?",
-    answer: "Improved the user experience",
-    options: [
-      "Offers the user an opportunity to enter a correct response",
-      "Reduce bogus answers getting stored in the database",
-      "Improved the user experience",
-      "Increases the overall quality of the user data",
-    ],
+    a1: "Offers the user an opportunity to enter a correct response",
+    a2: "Reduce bogus answers getting stored in the database",
+    a3: "Improved the user experience",
+    a4: "Increases the overall quality of the user data",
+    correct: "answer3",
   },
 ];
